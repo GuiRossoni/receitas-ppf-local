@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #000408, #204c72);
+  color: #cccccc;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-y: auto;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.background-blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit; /* Herda o degradê do body */
+  filter: blur(5px);
+  z-index: -1; /* Coloca o blur atrás dos elementos */
+}
+
+.container {
+  position: relative;
+  width: 80%;
+  background: rgba(32, 76, 114, 0.9); /* Fundo da container com transparência */
+  padding: 20px;
+  border-radius: 15px;
+  z-index: 1; /* Garante que a container fique acima do blur */
+}
+
+h1, h2, h3 {
+  margin-bottom: 20px;
+  color: #cccccc; /* Cor clara para os títulos */
+}
+
+ul.link {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+ul.link li {
+  margin-right: 20px;
+}
+
+ul.link li a {
+  text-decoration: none;
+  color: #cccccc; 
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+ul.link li a:hover {
+  color: #cccccc; /* Cor clara no hover */
+}
+
+/* Estilização de botões */
+button {
+  background-color: #98633e;
+  color: #cccccc; /* Texto escuro para contraste */
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #98633e; 
+  transform: scale(1.05);
+}
+
+form {
+  margin-top: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #cccccc; 
+  color: #000408; 
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  border-color: #98633e;
+  outline: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #cccccc; 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #cccccc; 
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+ul li a:hover {
+  color: #98633e;
+}
+
+h2 {
+  color: #cccccc; 
+  margin-top: 20px;
+  padding: 20px;
+}
+
+p {
+  color: #cccccc; 
+}

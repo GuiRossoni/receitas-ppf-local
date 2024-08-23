@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "titulo": "Bolo de Chocolate",
+    "ingredientes": [
+      {
+        "ingrediente": "Chocolate em pó",
+        "quantidade": "50g",
+        "unidade": "g"
+      },
+      {
+        "ingrediente": "Ovos",
+        "quantidade": 3,
+        "unidade": "unidades"
+      },
+      {
+        "ingrediente": "Farinha de trigo",
+        "quantidade": "2 xícaras",
+        "unidade": "xícaras"
+      },
+      {
+        "ingrediente": "Açúcar",
+        "quantidade": "2 xícaras",
+        "unidade": "xícaras"
+      },
+      {
+        "ingrediente": "Óleo",
+        "quantidade": "1 xícara",
+        "unidade": "xícara"
+      },
+      {
+        "ingrediente": "Fermento em pó",
+        "quantidade": "1 colher de sopa",
+        "unidade": "colher de sopa"
+      },
+      {
+        "ingrediente": "Água",
+        "quantidade": "1 xícara",
+        "unidade": "xícara"
+      }
+    ],
+    "modoPreparo": "Misture todos os ingredientes, menos o fermento. Bata bem. Adicione o fermento e misture. Coloque em uma forma untada e leve ao forno a 180º por 40 minutos."
+  }
+]

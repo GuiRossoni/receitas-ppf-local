@@ -1,0 +1,5 @@
+npm install concurrently --save-dev
+npm install express body-parser
+npm install cors
+npm install react-router-dom
+npm install axios
